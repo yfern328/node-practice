@@ -16,5 +16,11 @@
     "message": "One person will give you great advice.",
     "lucky_number": 30,
     "spirit_animal": "Bear"
+  },
+  {
+    "id": 4,
+    "message": "Hello",
+    "lucky_number": 5,
+    "spirit_animal": "Dog"
   }
 ]

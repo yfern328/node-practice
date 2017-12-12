@@ -19,8 +19,19 @@
   },
   {
     "id": 4,
-    "message": "Hello",
-    "lucky_number": 5,
-    "spirit_animal": "Dog"
+    "message": "Love will come soon",
+    "spirit_animal": "Zebra"
+  },
+  {
+    "id": 5,
+    "message": "Success awaits you",
+    "lucky_number": 15,
+    "spirit_animal": "Giraffe"
+  },
+  {
+    "id": 6,
+    "message": "You will find something lost",
+    "lucky_number": 21,
+    "spirit_animal": "Frog"
   }
 ]

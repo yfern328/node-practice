@@ -64,6 +64,16 @@ app.put('/fortunes/:id', (req, res) => {
   res.json(fortunes);
 });
 
+app.delete('/fortunes/:id', (req, res) => {
+  const { id } = req.params;
+
+  const new_fortunes = fortunes.filter(f => f.id != id);
+
+  writeFortunes(new_fortunes);
+
+  res.json(new_fortunes);
+});
+
 module.exports = app;
 
 // curl -H "Content-Type: application/json" -X POST -d '{"message": "Hello", "lucky_number": 5, "spirit_animal": "Dog"}' http://localhost:3000/fortunes
